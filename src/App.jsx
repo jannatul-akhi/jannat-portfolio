@@ -1,6 +1,7 @@
 import About from "./components/About/About"
 import Home from "./components/Home/Home"
 import Navbar from "./components/Navbar/Navbar"
+import Resume from "./components/Resume/Resume"
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar></Navbar>
       <Home></Home>
       <About></About>
+      <Resume></Resume>
       </div>
     </>
   )

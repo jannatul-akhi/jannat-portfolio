@@ -1,12 +1,13 @@
 import akhi1 from "../../assets/Images/img2.png";
-// Import the FontAwesomeIcon component
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// Import the Facebook icon
 import {
   faFacebook,
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+// import {resume} from "../../assets/Resume/jannatul_ferdous.pdf"
+
+
 const About = () => {
   return (
     <div className="text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-black shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12">
@@ -62,9 +63,9 @@ const About = () => {
                   </ul>
                 </div>
 
-                <a href="#Resume">
+                <a href="../../assets/Resume/jannatul_ferdous.pdf" download="jannatul_ferdous.pdf">
                   <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-xl bg-[#465697]">
-                    Resume
+                    Download Resume
                   </button>
                 </a>
               </span>
